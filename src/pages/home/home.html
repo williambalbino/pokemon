@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<<<<<<< HEAD
+<ion-content padding>
+  <ion-list>
+    <ion-item *ngFor="let p of pokemons" (click)="exibirDetalhe(p)">
+      <ion-avatar item-start>
+        <img [src]="p.imagem">
+      </ion-avatar>
+      <h2>{{p.nome}}</h2>
+    </ion-item>
+</ion-list>
+=======
+<ion-content class="card-background-page">
+    <ion-card>
+      <img src="assets/imgs/todos.png"/>
+      <div class="card-title">Pokemons</div>
+      <div class="card-subtitle"></div>
+    </ion-card>
+
+    <ion-card>
+        <img src="assets/imgs/pesquisa.png"/>
+        <div class="card-title">Pokemons</div>
+        <div class="card-subtitle"></div>
+    </ion-card>
+>>>>>>> 321a05c38a3c5ad8ef3800a6657e595705c5260a
+</ion-content>
+<!-- <ul>
+  <li *ngFor="let pokemon of pokemons"> 
+    {{ pokemon.id }}
+    {{ pokemon.nome }}
+  </li>
+</ul> -->
+
